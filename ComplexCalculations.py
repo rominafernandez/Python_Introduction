@@ -3,7 +3,7 @@
 # Each group should write a program that asks the user for at
 # least 10 different numbers, they have to be floating point numbers and integers.
 # Run at least 35 different mathematical operations with these
-# numbers, 5 for each of the seven you used in Exercise 03
+# numbers, 5 for each of the seven you used in Exercise 03.
 # Print out the results using either f-Strings or commas in your print commands
 
 int_one = int(input("Type an Integer: "))
@@ -44,7 +44,7 @@ print(f"16: {fl_one} + {fl_two} = {fl_one + fl_two}")
 print(f"17: {int_four} + {fl_five} = {int_four + fl_five}")
 print(f"18: {int_three} - {int_one} = {int_three - int_one}")
 print(f"19: {fl_one} - {fl_three} = {fl_one - fl_three}")
-print(f"20: {int_two} - {fl_two} = {int_two - int_two}")
+print(f"20: {int_two} - {fl_two} = {int_two - fl_two}")
 print(f"21: {int_five} * {int_four} = {int_five * int_four}")
 print(f"22: {fl_one} * {fl_five} = {fl_one* fl_five}")
 print(f"23: {int_three} * {fl_three} = {int_three * fl_three}")
@@ -52,8 +52,8 @@ print(f"24: {int_two} / {int_two} = {int_two / int_two}")
 print(f"25: {fl_five} / {fl_four} = {fl_five / fl_four}")
 print(f"26: {int_three} / {fl_two} = {int_three / fl_two}")
 print(f"27: {fl_three} // {fl_two} = {fl_three // fl_two}")
-print(f"28: {fl_five} // {int_two} = {fl_one // fl_two}")
-print(f"29: {int_one} // {fl_one} = {fl_one // fl_two}")
+print(f"28: {fl_five} // {int_two} = {fl_five // int_two}")
+print(f"29: {int_one} // {fl_one} = {fl_one // fl_one}")
 print(f"30: {int_two}^{int_two} = {int_two ** int_two}")
 print(f"31: {int_four}^{fl_two} = {int_four ** fl_two}")
 print(f"32: {fl_four}^{fl_four} = {fl_four ** fl_four}")
